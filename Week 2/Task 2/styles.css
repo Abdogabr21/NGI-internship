@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Arial, sans-serif;
+  color: rgb(23, 43, 77);
+  background-color: rgb(245, 247, 251);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+  background-color: rgb(16, 33, 59);
+  color: white;
+}
+.navbar .logo {
+  font-size: 25px;
+}
+.navbar .links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.links a {
+  color: white;
+  text-decoration: none;
+  transition: color;
+}
+.links a:hover {
+  color: rgb(167, 139, 250);
+}
+.intro {
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+  min-height: 400px;
+  background-image: url("https://images.pexels.com/photos/2291428/pexels-photo-2291428.jpeg?auto=format&fit=crop&w=1600&q=80");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.intro h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.intro p {
+  margin-bottom: 30px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(167, 139, 250);
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  transition:
+    background-color,
+    transform 0.2s;
+}
+.btn:hover {
+  background-color: rgb(115, 84, 206);
+  transform: translateY(-5px);
+}
+.content {
+  padding: 70px 50px;
+}
+.content h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.content p {
+  color: #64748b;
+  margin-bottom: 20px;
+}
+.cards {
+  display: flex;
+  gap: 20px;
+}
+.card {
+  flex: 1 1;
+  padding: 30px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+.card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.card p {
+  color: #475569;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.card a {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(140, 81, 242);
+  transition: color 0.3s;
+}
+.card a:hover {
+  color: #4c1d95;
+}
+.card .status {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 10px;
+  background-color: rgb(140, 81, 242);
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-radius: 30px;
+}
+
+footer {
+  background-color: rgb(16, 33, 59);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+footer h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+footer p {
+  color: #cbd5e1;
+  margin-bottom: 10px;
+}
