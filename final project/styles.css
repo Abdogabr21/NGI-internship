@@ -3,3 +3,69 @@
   margin: 0px;
   padding: 0px;
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 100px;
+  background-color: white;
+}
+.navbar .logo {
+  font-size: 27px;
+  font-weight: bold;
+}
+.navbar .links {
+  display: flex;
+  gap: 35px;
+  list-style: none;
+}
+.links a {
+  color: #777;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.links a:hover {
+  color: #e9a23b;
+}
+.navbar .btn {
+  background-color: black;
+  padding: 15px 20px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+.intro {
+  padding: 10px 125px;
+  color: white;
+  display: flex;
+  align-items: center;
+  min-height: 400px;
+  background: linear-gradient(
+    180deg,
+    rgba(17, 28, 39, 0.85),
+    rgba(15, 24, 33, 0.25)
+  );
+}
+.intro h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.intro p {
+  margin-bottom: 30px;
+}
+.intro .btn {
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: #e9a23b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition:
+    background-color,
+    transform 0.2s;
+}
+.btn:hover {
+  background-color: #c7882a;
+  transform: translateY(-5px);
+}
