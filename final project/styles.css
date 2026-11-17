@@ -80,12 +80,14 @@
   text-align: center;
 }
 .content .smalltitle {
+  margin-top: 10px;
   color: #e9a23b;
   font-weight: bold;
   font-size: 13px;
   letter-spacing: 3px;
 }
 .content h2 {
+  margin-top: 10px;
   font-weight: bold;
   font-size: 35px;
   line-height: 40px;
@@ -213,4 +215,25 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
+}
+.prefooter {
+  background-color: rgb(25, 28, 40);
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+.prefooter h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.prefooter p {
+  color: #ccc;
+  margin-bottom: 10px;
+}
+footer {
+  background-color: rgb(18, 24, 30);
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
 }
